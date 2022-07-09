@@ -127,13 +127,12 @@
 }
 
 
+/*menu*/
 
-
-
-
-
-
-
+.menu .user-info{
+    padding: 20px;
+    border: 1px solid var(--color-border-1);
+}
 
 
 .menu .user-info .img-name{
@@ -167,7 +166,7 @@
 .menu .details .details-item{
     display: flex;
     justify-content: space-between;
-    margin: 20px 10px;
+    margin: 5px 10px;
 }
 
 .menu .details .details-item span{
@@ -206,5 +205,83 @@
 
 .menu-btns .item-active span{
     color: var(--color-text-header-2);
+}
+
+/* holder */
+
+.holder{
+    background-color: var(--color-bg-3);
+    padding: 30px;
+}
+
+/* mini- cards*/
+
+.mini-card-report{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mini-card-report .right{
+    background-color: var(--color-bg-4);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 25px 15px;
+}
+
+.mini-card-report .right i{
+    color: var(--color-icon-1);
+}
+
+.mini-card-report .left{
+    background-color: var(--color-bg-1);
+    padding: 15px 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-card-report .left span:first-child{
+    color: var(--color-text-header-2);
+}
+
+.revenue-box{
+    margin-top: 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.01);
+}
+
+.revenue-box .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-bg-4);
+    padding: 5px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.revenue-box .head .right{
+
+}
+
+.revenue-box .head .left{
+    display: flex;
+    align-items: center;
+}
+
+.revenue-box .head .left i{
+    color: var(--color-icon-2);
+    margin-right: 20px;
+}
+
+.revenue-box .content{
+    background-color: var(--color-bg-1);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
